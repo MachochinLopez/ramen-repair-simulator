@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class Model : MonoBehaviour
 {
-	Rigidbody rb;
+	private Rigidbody rb;
 
     void Start()
     {
 		rb = gameObject.GetComponent<Rigidbody>();
-    }
-
-    private void Update()
-    {
-        Debug.Log(getSpeed());
     }
 
     public float getSpeed()
