@@ -12,7 +12,7 @@ public class Repairable : Model
 
 	public void Break()
 	{
-		//Spawnea al azar los pedazos del objeto.
+		//Spawnea al azar los pedazos del objeto.a
 		//Les agrega un empuje pequeño en direcciones random.
 		//Saca particulas
 		//Destruye el objeto.
