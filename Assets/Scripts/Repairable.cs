@@ -8,6 +8,9 @@ public class Repairable : Model
 	[SerializeField]
 	private Model[] fragments;
 
+	[SerializeField]
+	private Space[] spaces;
+
 
 	public void Break()
 	{
