@@ -7,8 +7,10 @@ public class Repairable : Model
 	//Se asigna el objeto desde la escena o su prefab.
 	[SerializeField]
 	private Model[] fragments;
+
 	[SerializeField]
 	private Space[] spaces;
+
 
 	public void Break()
 	{
